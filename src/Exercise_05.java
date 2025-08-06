@@ -60,7 +60,37 @@ public class Exercise_05 {
 
         // Write a program to find factorial of a given number using for loop
 
-        System.out.println("FACTORIAL");
+//        System.out.println("FACTORIAL");
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the value of n :");
+//int result = 1;
+//        int n = sc.nextInt();
+//      for ( int i = n; i>=1 ; i--){
+//
+//       result *= i;
+//}
+//        System.out.println(result)
+//
+        // repeat  1 using for loop
+//        for (int i = 1; i <=100; i++){
+//            System.out.println(1);
+//        }
+//
+//
+//
+        // q) write a program to calculate the sum of numbers occuring in the table of 8
+//       int z = 0;
+//        for ( int i = 0 ; i <= 10 ; i ++){
+//            int k = 8*i;
+//            //System.out.println(k);
+//            z += k;
+//
+//        }
+//
+//        System.out.println(z);
+//        }
+    }
+   }
 
 
         }
