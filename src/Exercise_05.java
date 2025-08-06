@@ -78,7 +78,7 @@ public class Exercise_05 {
 //
 //
 //
-        // q) write a program to calculate the sum of numbers occuring in the table of 8
+        // q) write a program to calculate the sum of numbers  in the table of 8
 //       int z = 0;
 //        for ( int i = 0 ; i <= 10 ; i ++){
 //            int k = 8*i;
