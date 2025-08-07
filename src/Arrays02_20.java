@@ -1,3 +1,4 @@
+// DISPLAYING AN ARRAY USING FOR LOOP AND FOR EACH LOOP 
 public class Arrays02_20 {
     public static void main(String[] args) {
         int [] marks = {30, 55 , 71, 62 , 80 };
