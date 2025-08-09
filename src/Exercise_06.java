@@ -56,41 +56,65 @@ public class Exercise_06 {
 
         // Q4) Write a java program to add two matrices of size (2 x 3)
 
-int matrix1[][] = { {2 , 4 , 2},
-                    {1 ,2 , 1}  };
+//int matrix1[][] = { {2 , 4 , 2},
+//                    {1 ,2 , 1}  };
+//
+//int matrix2[][] = { {4 , 2 , 4},
+//                     {2 ,1 , 2}  };
+//
+//for(int i = 0; i< matrix1.length ; i++){
+//    for( int j = 0 ; j < matrix1[i].length ; j++){
+//        System.out.print(matrix1[i][j]);
+//        System.out.print(" ");
+//    }
+//    System.out.println();
+//}
+//
+//        for(int i = 0; i< matrix2.length ; i++){
+//            for( int j = 0 ; j < matrix2[i].length ; j++){
+//                System.out.print(matrix2[i][j]);
+//                System.out.print(" ");
+//            }
+//            System.out.println();
+//        }
+//        // we have to add these 2 matrices
+//
+//int matrix3[][] = { {matrix1[0][0]+matrix2[0][0] , matrix1[0][1]+ matrix2[0][1] , matrix1[0][2] + matrix2[0][2]},
+//        {matrix1[1][0]+matrix2[1][0] , matrix1[1][1]+ matrix2[1][1] , matrix1[1][2] + matrix2[1][2]}
+//        };
+//        for(int i = 0; i< matrix3.length ; i++){
+//            for( int j = 0 ; j < matrix3[i].length ; j++){
+//                System.out.print(matrix3[i][j]);
+//                System.out.print(" ");
+//            }
+//            System.out.println();
+//        }
 
-int matrix2[][] = { {4 , 2 , 4},
-                     {2 ,1 , 2}  };
+// Q5) Write a java program to reverse an array ;
 
-for(int i = 0; i< matrix1.length ; i++){
-    for( int j = 0 ; j < matrix1[i].length ; j++){
-        System.out.print(matrix1[i][j]);
-        System.out.print(" ");
-    }
-    System.out.println();
-}
+//int array[]= {1,2,3,4,5};
+//for (int i = array.length - 1; i >=0 ; i--){
+//    System.out.println(array[i]);
+//
+//}  // this is not reversing an array its just writing the values in reverse order
+        // Reversing an array :-
+        // first creating an array
+        int []r = {10,20,30,40,50,60};
 
-        for(int i = 0; i< matrix2.length ; i++){
-            for( int j = 0 ; j < matrix2[i].length ; j++){
-                System.out.print(matrix2[i][j]);
-                System.out.print(" ");
-            }
-            System.out.println();
+        // replacing the elements of the array
+       int a = 0;
+        for(a = 0 ; a < r.length/2; a++) {
+            int temp  = r[a];
+
+           r[a] = r[r.length -1 -a];
+            r[r.length -1 -a] = temp;
+
+
+
         }
-        // we have to add these 2 matrices
-
-int matrix3[][] = { {matrix1[0][0]+matrix2[0][0] , matrix1[0][1]+ matrix2[0][1] , matrix1[0][2] + matrix2[0][2]},
-        {matrix1[1][0]+matrix2[1][0] , matrix1[1][1]+ matrix2[1][1] , matrix1[1][2] + matrix2[1][2]}
-        };
-        for(int i = 0; i< matrix3.length ; i++){
-            for( int j = 0 ; j < matrix3[i].length ; j++){
-                System.out.print(matrix3[i][j]);
-                System.out.print(" ");
-            }
-            System.out.println();
+      for(int i = 0; i< r.length; i++ ){
+            System.out.println(r[i]);
         }
-
-
 
 
 
