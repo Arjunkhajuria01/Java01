@@ -99,21 +99,68 @@ public class Exercise_06 {
 //}  // this is not reversing an array its just writing the values in reverse order
         // Reversing an array :-
         // first creating an array
-        int []r = {10,20,30,40,50,60};
+//        int []r = {10,20,30,40,50,60};
+//
+//        // replacing the elements of the array
+//       int a = 0;
+//        for(a = 0 ; a < r.length/2; a++) {
+//            int temp  = r[a];
+//
+//           r[a] = r[r.length -1 -a];
+//            r[r.length -1 -a] = temp;
+//
+//
+//
+//        }
+//      for(int i = 0; i< r.length; i++ ){
+//            System.out.println(r[i]);
+//        }
 
-        // replacing the elements of the array
-       int a = 0;
-        for(a = 0 ; a < r.length/2; a++) {
-            int temp  = r[a];
-
-           r[a] = r[r.length -1 -a];
-            r[r.length -1 -a] = temp;
+// q 6) Java program to find the maximum element in the array ?
+/*
+        int []r = {20,30,50,100,70,88,101, 202, 10, 49, 18, 304, 400, 23, 29 , 92};
+        // let first element be the largest in the array
 
 
+        int gratest = r[0];
+     for(int i = 1 ; i <r.length ; i++){
 
+         if (r[i] > gratest){
+             gratest = r[i];
+         }
+
+     }
+        System.out.println(gratest);
+*/
+
+        // q7) write a java program to find the minimum element in an array .
+
+//        int []r = {20,30,50,100,70,88,101, 202, 10, 49, 18, 304, 400, 23, 29 , 92};
+//        // let the first element be the smallest in the array ;
+//
+//        int smallest = r[0];
+//        for(int i = 1 ; i< r.length ; i++){
+//            if (r[i]< smallest ){
+//                smallest = r[i];
+//            }
+//        }
+//
+//        System.out.println(smallest);
+
+        // Q8 ) write a java program to check whether the given array is sorted or not
+        boolean isSorted = true;
+        int [] arr = {1, 12, 3, 4, 5, 34, 67};
+        for(int i=0;i<arr.length-1;i++){
+            if(arr[i] > arr[i+1]){
+                isSorted = false;
+                break;
+            }
         }
-      for(int i = 0; i< r.length; i++ ){
-            System.out.println(r[i]);
+        if(isSorted){
+            System.out.println("The Array is sorted");
+        }
+        else{
+            System.out.println("The Array is not sorted");
         }
 
 
