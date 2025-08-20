@@ -18,6 +18,7 @@ public class Methods_22 {
 
         int result = mysum(7,9);
         System.out.println(result);
+        
 
     }
 }
